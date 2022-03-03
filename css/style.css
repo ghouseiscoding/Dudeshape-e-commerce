@@ -190,10 +190,13 @@ highlight section - #FAFAFA */
     margin: 5%;
 }
 
-.exploreImg{
-    height: auto;
+.Imgsection{
     width: 50%;
-    padding: 0 5rem;
+}
+
+.exploreImg{
+    width: 80%;
+    padding-left: 1.5rem;
 }
 
 .exploreText{
@@ -230,7 +233,7 @@ highlight section - #FAFAFA */
 .ratingHeading{
     border-bottom: .19rem solid #FFC700;
     width: fit-content;
-    
+    font-size: 2rem;
 }
 
 .ratingDesc{
