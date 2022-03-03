@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,400;1,500;1,600;1,800&display=swap');
+
+/* Primary colors -
+
+Yellow - #FFC700
+
+Footer section - #FFF4CC
+
+Client section - #FAFAFA
+
+Add to cart - #B6E0E2
+
+highlight section - #FAFAFA */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* This is header section */
+
+.header-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.logo{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+    font-weight: 500;
+}
+
+.nav-menu:hover{
+    background-color: #fcdb66;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.search-section{
+    display: flex;
+}
+
+.search{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-image: url('../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    
+}
+
+.search::placeholder{
+    font-size: 13px;
+}
+
+.search:focus{
+    outline: none;
+    background-image: none;
+}
+
+.icons{
+    padding-left: 8px;
+    width: 2rem;
+    cursor: pointer;
+}
+
+
+
+/* This is hero section */
+
+.hero-section{
+    padding: 0 50px 0 50px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 60px;
+}
+
+.heading{
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.hero-right{
+    padding: 20px 30px 20px 50px;
+    width: 50vw;
+}
+
+.hero-desc{
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+
+.cta{
+    background-color: #FFC700;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cta:hover{
+    background-color: #fcdb66;
+}
+
+.hero-img-div{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img{
+    width: 90%;
+}
+
+/* This section is for features */
+
+.clientNames{
+    margin: 100px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.companyLogos{
+    width: 5rem;
+    filter: grayscale(100%);
+}
+
+/* This section is for feature card */
+
+.featureColumn{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.featureCard{
+    background-color: #FAFAFA;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureImg{
+    width: 8rem;
+    margin-top: 50px;
+}
+
+.featureHeading{
+    margin: 20px;
+}
+
+.featureDesc{
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px
+}
+
+/* This is explore section */
+
+.explore{
+    display: flex;
+    margin: 5%;
+}
+
+.exploreImg{
+    height: auto;
+    width: 50%;
+    padding: 0 5rem;
+}
+
+.exploreText{
+    margin: 2.5%;
+}
+
+.exploreHeading{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+.exploreDesc{
+    font-weight: 400;
+    font-size: .9rem
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.ratingInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.ratingHeading{
+    border-bottom: .19rem solid #FFC700;
+    width: fit-content;
+    
+}
+
+.ratingDesc{
+    margin-top: 1rem;
+}
+
+.exploreCta{
+        background-color: #FFC700;
+        border: none;
+        padding: 8px 15px 8px 15px;
+        margin-top: 2.5rem;
+        font-size: 12px;
+        font-weight: 600;
+}
+
+.exploreCta:hover{
+    background-color: #fcdb66;
+}
