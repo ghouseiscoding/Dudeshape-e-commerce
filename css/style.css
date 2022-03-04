@@ -195,8 +195,9 @@ highlight section - #FAFAFA */
 }
 
 .exploreImg{
-    width: 80%;
-    padding-left: 1.5rem;
+    height: auto;
+    width: 100%;
+    padding: 1.5rem;
 }
 
 .exploreText{
@@ -251,4 +252,101 @@ highlight section - #FAFAFA */
 
 .exploreCta:hover{
     background-color: #fcdb66;
+}
+
+/* <!-- This area is for Top Selling products --> */
+
+.topSection{
+    margin: 50px;
+}
+
+.topHeading{
+    margin: 30px;
+}
+
+.toph1{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+.topDescSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topDesc{
+    font-weight: 400;
+    font-size: .9rem;
+    width: 500px;
+}
+
+.itemAll{
+    color: #FFC200;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.topGrid{
+    margin: 3% 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1500px;
+}
+
+.topItem{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.topImage{
+    height: auto;
+    width: 100%;
+}
+
+.topItemName{
+    background-color: #FAFAFA;
+    width: 80%;
+    margin-top: -25px;
+    
+}
+
+.itemName{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 30px 10px 10px 10px;
+}
+
+.itemPriceCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.itemPrice{
+    font-weight: 400;
+    font-size: .9rem;
+    margin-left: 10px;
+
+}
+
+.itemCart{
+    background-color: #B8E1E3;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.left{
+    padding-right: 15px;
+}
+
+.right{
+    padding-left: 15px;
 }
